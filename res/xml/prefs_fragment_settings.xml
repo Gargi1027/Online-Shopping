@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:example="http://schemas.android.com/apk/res/com.example.Smasher">
+
+    <PreferenceCategory 
+        android:title="Settings" >
+    
+        <Preference 
+    	    android:title="RoachSmasher"
+    	    android:summary="Copyright 2015 By Harshil Parikh"
+    	    android:selectable="false"/> 
+    	    
+          <Preference 
+    	    android:title="High Score"
+    	    android:summary="0"
+    	    android:key="prefs_highscore"   
+    	    android:selectable="false"/>
+    	
+    	
+    	
+ 	</PreferenceCategory>	   
+</PreferenceScreen>
