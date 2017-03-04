@@ -1,0 +1,290 @@
+s#id1
+{
+	margin-right: auto ;
+	margin-left: auto;
+	text-align : centre;
+	top: 10px;
+    left: 600px;
+	
+}
+body{
+	background-color:#ffffff;
+	background-image:url("images/shopping.jpg");
+	
+}
+a.button
+{
+	-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	
+    text-decoration: none;
+    color: initial;
+}
+root { 
+    display: block;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{    
+    text-align:center; 
+       
+}
+#login_in{
+	position: absolute;
+    top: 10px;
+    left: 500px;
+    margin-bottom: 50px;
+}
+#date{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    float: right;
+}
+#invalid_login{    
+    position: absolute;
+    top: 10px;
+    left:400px;
+    float:right;
+}
+#user_info{
+    position:absolute;
+    top:10px;
+    left:650px;
+    background-color: white;
+    font-size:25px;
+    font-family:Verdana, Geneva, sans-serif;
+    color:#FF043E;
+
+}
+#button {
+    background-color: #af7ecd; 
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    -moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+    display: inline-block;
+    font-size: 15px;
+    text-weight:bold;
+    font-family:font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+}
+
+#reg{
+	position:relative;
+    top : 300px;
+    left : 50px;
+    padding:5px 10px;	
+}
+
+#wrong_user{
+    position:absolute;
+    top:10px;
+    left:300px;
+    float:right;
+}
+.logmeout{
+    position:absolute;
+    top:10px;
+    left:1000px;
+    float:right;
+    text-align: right;
+}
+
+ #one{
+	position:absolute;
+    top:0px;
+    left:350px;
+    float:right;
+    text-align: right;
+	
+} 
+#big_wrapper{
+	
+    text-align:left;
+    width: 1000px;
+    border: 3px black solid;
+    margin: 60px auto;
+    font-family :Verdana, Geneva, sans-serif;
+    margin-top:80px;
+    background-color: #c5c6f8;
+}
+
+#top_header{
+    font-weight: bold;
+    font-size: 25px;
+    font-style: normal;
+    background-color: #408080; 
+    color: white;    
+    padding:20px;
+    text-align: center;   
+    font-family: Futura,"Trebuchet MS",Arial,sans-serif; 
+}
+
+#links{
+    border: 2px black solid;
+    font-style: none;
+    background-color: #c6c6ff;
+    color: white;
+    padding: 10px;
+}
+#links li{
+	font-weight:bold;
+	font-fmaily:font-family: Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif;
+    list-style: none;
+    font-size: 14px;
+    display: inline-block;     
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color:#c6c6ff;
+}
+li a.hover{
+    background-color: aqua;
+    color : white;
+    list-style: none;   
+}
+#main_content{
+    float:left;
+    width: 660px; 
+    background-color: #c5c6f8;
+}
+#main_article{
+    padding:20px;
+    margin:30px;
+    border: 2px black double;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+    font-weight:bold;
+    background-color: #dedede;
+}
+#inner_article{
+    margin-top:20px;
+    padding:4px;
+    border: 2px black solid;
+}
+#inner_artcile_heading{
+    font-weight: bold;    
+    color:#FF0408;
+    font-size:20px;
+   font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+}
+#inner_artcile_dealer{
+    font-style: italic;  
+    font-family:inner_artcile_dealer;
+    color:blue;  
+}
+#quantity{    
+    float: right;   
+    color:black;
+}
+#table_data{
+	color:blue;
+}
+#table_desc{
+	color:#000000;
+	font-weight: bold;
+}
+#add_to_cart{
+    position: absolute;
+    margin:1px;
+    float: right;   
+    top:240px;
+    left:675px;     
+}
+#total_cart_items{
+    position: absolute;
+    margin-top:45px;
+    float: right;   
+    top:240px;
+    left:400px; 
+    font-family:  font-family: "Lucida Bright",Georgia,serif;
+    color:#FF8A03;  
+}
+#Finish_n_checkout{
+    position: absolute;
+    margin:1px;
+    float: right;   
+    top: 281px;
+    left: 675px;    
+
+}
+
+#table_data_dont_update_this{
+    width:100px;
+    
+}
+#price{
+	font-family: "Lucida Bright",Georgia,serif;
+    color:#3DFF02;
+    font-weight: bold;
+    font-size: 18px;
+}
+#updates{
+	font-family:"Arial Black", Gadget, sans-serif	;
+    float: left;
+    border: 2px black solid;
+    padding: 20px;
+    width: 250px; 
+    font-size:30px;
+    margin-top: 15px;
+    margin-bottom:10px;
+    background-color:white;
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+#updates:after{
+	background-color:white;
+}
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    25% { color: blue; }
+    50%{color:green;}
+    75%{color: black;}
+    100% { color: brown; }
+}
+@-moz-keyframes color-change {
+     0% { color: red; }
+    25% { color: blue; }
+    50%{color:green;}
+    75%{color: black;}
+    100% { color: brown; }
+}
+@-ms-keyframes color-change {
+      0% { color: red; }
+    25% { color: blue; }
+    50%{color:green;}
+    75%{color: black;}
+    100% { color: brown; }
+}
+@-o-keyframes color-change {
+      0% { color: red; }
+    25% { color: blue; }
+    50%{color:green;}
+    75%{color:black;}
+    100% { color: brown; }
+}
+@keyframes color-change {
+      0% { color: red; }
+    25% { color: blue; }
+    50%{color:green;}
+    75%{color:black;}
+    100% { color: brown; }
+}
+#the_footer{
+    clear:both;
+     font-weight: bold;
+    font-size: 25px;
+    font-style: normal;
+    background-color: #408080; 
+    color: white;    
+    padding:20px;
+    text-align: center;   
+    font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+}
